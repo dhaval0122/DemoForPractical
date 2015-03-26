@@ -23,17 +23,12 @@
 #define ERROR_MSG @"There is some problem. Please try after some time."
 #define ERROR_CONNECTION @"Please Check Internet connection"
 
-#define HOSTNAME @"http://lab.ntechcorporate.com/api/Loyalty/"
-#define HOSTMEDIA @"http://lab.ntechcorporate.com"
-#define TOKEN @"LoyaltyAPI:A618A39C-1888-4D40-B06E-2D2F4AF8638E"
+#define HOSTNAME @""
+#define HOSTMEDIA @""
+#define TOKEN @""
 #define GOOGLE_MAP_KEY @"AIzaSyBPZrSjmy5t2KCt4UzbZ2RIv-U4Af8Z2tk"
 
 #define ROOTVIEW [[[UIApplication sharedApplication] keyWindow] rootViewController]
-#define CashOnDelivery @"COD"
-#define online @"ONLINE"
-#define OrderType_ATRestaurant @"AT Restaurant"
-#define OrderType_TakeAway @"Take Away"
-#define OrderType_HomeDelivery @"Home Delivery"
 
 //#define FONT_centuryGothic_35 [UIFont fontWithName:@"Century Gothic" size:35];
 //#define FONT_centuryGothic_65 [UIFont fontWithName:@"Century Gothic" size:65];
@@ -55,13 +50,5 @@
 // - To use the PayPal sandbox, use PayPalEnvironmentSandbox.
 // - For testing, use PayPalEnvironmentNoNetwork.
 #define kPayPalEnvironment PayPalEnvironmentSandbox
-
-#define ORDER_NOTIFICATION @"Order"
-#define POINTS_NOTIFICATION @"LoyaltyPoints"
-#define LOYALTYPROGRAM_NOTIFICATION @"LoyaltyProgram"
-#define OFFER_NOTIFICATION @"SpecialOffer"
-#define NEWRESTAURANT_NOTIFICATION @"NewRestaurant"
-#define CHAT_NOTIFICATION @"Chat"
-#define OTHER_NOTIFICATION @"Other"
 
 #endif
